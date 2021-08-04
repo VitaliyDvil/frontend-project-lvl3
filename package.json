@@ -16,5 +16,10 @@
     "url": "https://github.com/VitaliyDvil/frontend-project-lvl3/issues"
   },
   "homepage": "https://github.com/VitaliyDvil/frontend-project-lvl3#readme",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4"
+  }
 }
