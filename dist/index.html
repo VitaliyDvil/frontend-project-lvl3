@@ -7,13 +7,22 @@
     <title>Document</title>
 <script defer src="bundle.js"></script></head>
 <body>
-    <h1>RSS агрегатор</h1>
-    <p>Начните читать RSS сегодня! Это легко, это красиво.</p>
-    <form action="">
-        <input type="text">
-        <button>Добавить</button>
-    </form>
-    <p>Пример: https://ru.hexlet.io/lessons.rss</p>
+    <section class ="container1">
+        <div class ="form">
+            <h1>RSS агрегатор</h1>
+            <p class ="headP">Начните читать RSS сегодня! Это легко, это красиво.</p>
+            <form action ="#" name = "form" class ="form">
+                <input id="url-input" autofocus="" required="" name="url" aria-label="url" class="form-control w-100" placeholder="ссылка RSS" autocomplete="off">
+                <button type ="submit" class ="form-button">Добавить</button>
+            </form>
+            <p class ="example">Пример: https://ru.hexlet.io/lessons.rss</p>
+            <p class="text-danger"></p>
+        </div>
+    </section>
+    <section class ="container2">
+        <div class="feeds">
+
+        </div>
+    </section>
 </body>
 </html>
-
