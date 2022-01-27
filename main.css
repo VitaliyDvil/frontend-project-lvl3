@@ -6,7 +6,7 @@
 .container1 {
     text-align: center;
     background-color: rgb(8, 6, 32);
-    height: 300px;
+    height: 350px;
 }
 
 h1 {
@@ -53,4 +53,26 @@ h1 {
 
 .error{
     border-color: red;
+}
+
+a {
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.modal-link-button {
+    text-decoration: none;
+    color: white;
+}
+
+/* .modal-link-button:hover {
+    color: white;
+} */
+
+.fw-normal {
+    color: red;
+}
+
+.btn-close {
+    text-decoration: none;
 }
