@@ -246,5 +246,3 @@ export default function init() {
         timerId = setTimeout(tick, 5000);
     }, 5000);
 }
-
-init();
