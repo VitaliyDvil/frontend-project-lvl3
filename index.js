@@ -1,4 +1,4 @@
-import './main.css';
+// import './main.css';
 import 'bootstrap';
 import onChange from 'on-change';
 import * as yup from 'yup';
